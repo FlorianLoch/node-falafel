@@ -1,3 +1,5 @@
+## This is a patched version of falafel using a up-to-date version of esprima which offers better parsing characteristics. It doesn't support the custom keyword feature!
+
 # falafel
 
 Transform the [ast](http://en.wikipedia.org/wiki/Abstract_syntax_tree) on a
@@ -48,6 +50,8 @@ output:
 ```
 
 ## custom keyword
+
+## This feature is not available in this patched version!
 
 Creating custom keywords is super simple!
 
