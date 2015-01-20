@@ -29,6 +29,10 @@ module.exports = function (src, opts, fn) {
     opts.range = true;
     if (typeof src !== 'string') src = String(src);
     
+    if (opts.isKeyword !== undefined) {
+        throw new Error("isKeyword() is not supported in this modified version of falafel!");
+    }
+
     var ast = parse(src, opts);
     
     var result = {
