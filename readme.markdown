@@ -1,4 +1,4 @@
-## This is a patched version of falafel using a up-to-date version of esprima which offers better parsing characteristics. It doesn't support the custom keyword feature!
+## This is a patched version of falafel using a up-to-date version of [esprima](https://github.com/ariya/esprima) which offers better parsing characteristics. It doesn't support the custom keyword feature!
 
 # falafel
 
